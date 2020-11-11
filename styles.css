@@ -1,6 +1,6 @@
 body {
-	background-color: black;
-	color: white;
+	background-color: pink;
+	color: black;
 }
 
 h1 {
@@ -25,3 +25,20 @@ p {
 .squares {
 	list-style-type: square;
 }
+
+.otsikot {
+	background-color: white;
+	width: 100px;
+	height: 100px;
+	border-style: none none none solid;
+}
+
+.tekstit {
+	background-color: white;
+	border-radius: 25px;
+}
+
+.linkit {
+    float: right;
+}
+  
