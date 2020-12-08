@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+.border {
+	border-style:none;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	float: left;
+	padding: 10px;
+	font-size: 30px;
+}
+.nav {
+	display: flex;
+	list-style: none;
+	text-align: center;
+}
+.nav-link {
+	font-size: 20px;
+}
+.nav-link.active {
+	color: black;
+}
+li {
+	display: list-item;
+	text-align: center;
+}
+.nav-link:hover {
+	color: red;
+}
+.border-center {
+	text-align: center;
+	background-color: lime;
+	border: solid;
+	padding: 30px;
+}
+.row {
+	margin-bottom: 10px;
+}
+.card {
+	font-size: 20px;
+	text-align: center;
+}
+
+.col {
+	flex-grow: 1;
+	max-width: 100%;
+}
+.center {
+	text-align: center;
+}
+h4 {
+	font-size: 25px;
+}
+
+img {
+	margin-left: 6px;
+	margin-right: 6px;
+}
