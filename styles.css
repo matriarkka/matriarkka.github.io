@@ -1,0 +1,31 @@
+.navbar-brand {
+	color: white;
+}
+.nav-item {
+	color: white;
+}	
+.li {
+	text-align: -webkit-match-parent;
+}
+.form-inline {
+	float: right;
+}
+.jumbotron {
+	text-align: center;
+	margin: 20px;
+	background: url(aloitus.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	
+}
+.lead {
+	font-style: bold;
+}
+.btn {
+	margin: 10px;
+}
+.img-fluid {
+	background-color: gray;
+	margin: 10px;
+}
