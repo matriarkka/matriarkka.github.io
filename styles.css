@@ -1,7 +1,7 @@
 .jumbotron {
 	text-align: center;
 	margin: 20px;
-	background: url(aloitus2.jpg);
+	background: url(images/aloitus2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
@@ -39,7 +39,7 @@ input[type=submit] {
 	color: white;
 }
 body {
-	background-image: url(background2.jpg);
+	background-image: url(images/background2.jpg);
 	color: white;
 }
 p {
