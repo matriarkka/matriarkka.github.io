@@ -1,0 +1,54 @@
+.jumbotron {
+	text-align: center;
+	margin: 20px;
+	background: url(aloitus2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+.btn {
+	margin: 10px;
+}
+.card {
+	text-align: center;
+	border: none;
+	color: black;
+}
+.img-fluid {
+	width: 605px;
+}
+.rounded {
+	margin: 6px 6px 6px 6px;
+}
+.border {
+	border: none gray;
+	padding: 5px;
+	text-align: center;
+	background-color: gray;
+	margin-top: 30px;
+}
+.border-center {
+	text-align: center;
+	background-color: black;
+	border: black solid;
+	padding: 30px;
+	margin-top: 10px;
+}
+input[type=submit] {
+	background-color: gray;
+	color: white;
+}
+body {
+	background-image: url(background2.jpg);
+	color: white;
+}
+p {
+	font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+	  body {
+		  background-image: none;
+	    background-color: black;
+		
+	  }
+}
