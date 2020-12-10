@@ -1,3 +1,6 @@
+.navbar {
+	color: white;
+}
 .jumbotron {
 	text-align: center;
 	margin: 20px;
@@ -5,6 +8,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+}
+.otsikko {
+	height: 200px;
 }
 .btn {
 	margin: 10px;
@@ -14,12 +20,13 @@
 	border: none;
 	color: black;
 	margin: 10px;
+	background-color: gray;
 }
-.img-fluid {
-	width: 605px;
+.kuvat {
+	width: 768px;
 }
 .rounded {
-	margin: 6px 15px 15px 6px;
+	margin: 6px 15px 15px 15px;
 }
 .border {
 	border: none;
@@ -34,31 +41,41 @@
 	border: none;
 	padding: 30px;
 	margin-top: 10px;
+	color: white;
 }
-
+.carousel-inner {
+	border: 8px solid gray;
+}
 .carousel-caption {
 	color: black;
 	text-shadow: 5px 5px 10px red;
 }
 fieldset {
+	padding: 30px;
 	margin-left: 20px;
+	margin-right: 20px;
+	border: 5px solid black;
+	font-size: 20px;
+}
+legend {
+	padding: 30px;
 }
 input[type=submit] {
 	background-color: gray;
 	color: white;
 }
-body {
-	background-image: url(kuvat/background2.jpg);
-	color: white;
-}
+
 p {
 	font-size: 20px;
+}
+hr {
+	width: 50%;
 }
 
 @media only screen and (max-width: 800px) {
 	  body {
 		  background-image: none;
 	    background-color: black;
-		
+		color: white;
 	  }
 }
