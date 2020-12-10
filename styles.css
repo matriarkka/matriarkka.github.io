@@ -1,7 +1,7 @@
 .jumbotron {
 	text-align: center;
 	margin: 20px;
-	background: url(images/aloitus2.jpg);
+	background: url(kuvat/aloitus2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
@@ -18,10 +18,10 @@
 	width: 605px;
 }
 .rounded {
-	margin: 6px 6px 6px 6px;
+	margin: 6px 15px 15px 6px;
 }
 .border {
-	border: none gray;
+	border: none;
 	padding: 5px;
 	text-align: center;
 	background-color: gray;
@@ -30,21 +30,30 @@
 .border-center {
 	text-align: center;
 	background-color: black;
-	border: black solid;
+	border: none;
 	padding: 30px;
 	margin-top: 10px;
+}
+
+.carousel-caption {
+	color: black;
+	text-shadow: 5px 5px 10px red;
+}
+fieldset {
+	margin-left: 20px;
 }
 input[type=submit] {
 	background-color: gray;
 	color: white;
 }
 body {
-	background-image: url(images/background2.jpg);
+	background-image: url(kuvat/background2.jpg);
 	color: white;
 }
 p {
 	font-size: 20px;
 }
+
 @media only screen and (max-width: 800px) {
 	  body {
 		  background-image: none;
